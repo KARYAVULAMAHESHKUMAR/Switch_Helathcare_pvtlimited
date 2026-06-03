@@ -16,7 +16,7 @@ const therapeuticAreas = [
     
   },
 ];
-
+  
 const TherapeuticAreas = () => {
   return (
     <section className="relative overflow-hidden bg-gradient-to-r from-[#0F4C81] via-[#1565C0] to-[#26A69A] py-16 lg:py-24">
