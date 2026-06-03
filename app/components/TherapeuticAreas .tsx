@@ -32,7 +32,7 @@ const TherapeuticAreas = () => {
             Therapeutic Areas
             <ArrowRight size={40} />
           </h2>
-
+ 
           <p className="text-lg md:text-xl leading-8 text-white/90 max-w-5xl">
             Switch Healthcare Pvt. Ltd. is committed to delivering
             high-quality healthcare solutions through innovation, integrity,

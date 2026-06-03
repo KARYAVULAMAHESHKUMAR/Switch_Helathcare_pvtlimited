@@ -1,74 +1,125 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
 
+// const brands = [
+//   {
+//     name: "Aceclofenac",
+//     logo: "/switchhealthimages/logo.jpeg",
+//     product: "/switchhealthimages/aceclofenac.jpeg",
+//   },
+//   {
+//     name: "Caltrionix",
+//     logo: "/switchhealthimages/logo.jpeg",
+//     product: "/switchhealthimages/caltrionix.jpeg",
+//   },
+//   {
+//     name: "Lysophen",
+//     logo: "/switchhealthimages/logo.jpeg",
+//     product: "/switchhealthimages/lysophen.jpeg",
+//   },
+//   {
+//     name: "Lysophen-D",
+//     logo: "/switchhealthimages/logo.jpeg",
+//     product: "/switchhealthimages/lysophen-d.jpeg",
+//   },
+//   {
+//     name: "Lysophen-LS",
+//     logo: "/switchhealthimages/logo.jpeg",
+//     product: "/switchhealthimages/lysophen-ls.jpeg",
+//   },
+//   {
+//     name: "Met B9",
+//     logo: "/switchhealthimages/logo.jpeg",
+//     product: "/switchhealthimages/met b9.jpeg",
+//   },
+//   {
+//     name: "Met-B9",
+//     logo: "/switchhealthimages/logo.jpeg",
+//     product: "/switchhealthimages/Met-b9.jpeg",
+//   },
+//   {
+//     name: "Met B9 Syrup",
+//     logo: "/switchhealthimages/logo.jpeg",
+//     product: "/switchhealthimages/Met b9 syrup.jpeg",
+//   },
+//   {
+//     name: "Met B9 XT",
+//     logo: "/switchhealthimages/logo.jpeg",
+//     product: "/switchhealthimages/met b9 xt.jpeg",
+//   },
+//   {
+//     name: "Met B9 Xy Syrup",
+//     logo: "/switchhealthimages/logo.jpeg",
+//     product: "/switchhealthimages/met b9 xy syrup.jpeg",
+//   },
+//   {
+//     name: "Resetod SP",
+//     logo: "/switchhealthimages/logo.jpeg",
+//     product: "/switchhealthimages/resetod-sp.jpeg",
+//   },
+//   {
+//     name: "Switchvit Syrup",
+//     logo: "/switchhealthimages/logo.jpeg",
+//     product: "/switchhealthimages/SWitchvitsyrup.jpeg",
+//   },
+//   {
+//     name: "UrocraVia",
+//     logo: "/switchhealthimages/logo.jpeg",
+//     product: "D:\SwitchHealth\switchhealth\public\UROCRAVIA.jpeg",
+//   },
+// ];
 const brands = [
-  {
-    name: "Aceclofenac",
-    logo: "/switchhealthimages/logo.jpeg",
-    product: "/switchhealthimages/aceclofenac.jpeg",
-  },
   {
     name: "Caltrionix",
     logo: "/switchhealthimages/logo.jpeg",
-    product: "/switchhealthimages/caltrionix.jpeg",
-  },
-  {
-    name: "Lysophen",
-    logo: "/switchhealthimages/logo.jpeg",
-    product: "/switchhealthimages/lysophen.jpeg",
-  },
-  {
-    name: "Lysophen-D",
-    logo: "/switchhealthimages/logo.jpeg",
-    product: "/switchhealthimages/lysophen-d.jpeg",
+    product: "/CALTRIONIX.jpeg",
   },
   {
     name: "Lysophen-LS",
     logo: "/switchhealthimages/logo.jpeg",
-    product: "/switchhealthimages/lysophen-ls.jpeg",
-  },
-  {
-    name: "Met B9",
-    logo: "/switchhealthimages/logo.jpeg",
-    product: "/switchhealthimages/met b9.jpeg",
-  },
-  {
-    name: "Met-B9",
-    logo: "/switchhealthimages/logo.jpeg",
-    product: "/switchhealthimages/Met-b9.jpeg",
-  },
-  {
-    name: "Met B9 Syrup",
-    logo: "/switchhealthimages/logo.jpeg",
-    product: "/switchhealthimages/Met b9 syrup.jpeg",
+    product: "/LYSOPHEN-LS.jpeg",
   },
   {
     name: "Met B9 XT",
     logo: "/switchhealthimages/logo.jpeg",
-    product: "/switchhealthimages/met b9 xt.jpeg",
+    product: "/MET B9 XT.jpeg",
   },
-  {
-    name: "Met B9 Xy Syrup",
+   {
+    name: "MET B9 SYRUP",
     logo: "/switchhealthimages/logo.jpeg",
-    product: "/switchhealthimages/met b9 xy syrup.jpeg",
+    product: "/MET B9 SYRUP.PNG",
   },
-  {
-    name: "Resetod SP",
+   {
+    name: "MET-B9",
     logo: "/switchhealthimages/logo.jpeg",
-    product: "/switchhealthimages/resetod-sp.jpeg",
+    product: "/MET-B9.jpeg",
+  },
+   {
+    name: "Met B9 LC",
+    logo: "/switchhealthimages/logo.jpeg",
+    product: "/MET B9-LC.jpeg",
   },
   {
     name: "Switchvit Syrup",
     logo: "/switchhealthimages/logo.jpeg",
-    product: "/switchhealthimages/SWitchvitsyrup.jpeg",
+    product: "/SWITCHVIT SYRUP.jpeg",
   },
   {
     name: "UrocraVia",
     logo: "/switchhealthimages/logo.jpeg",
-    product: "/switchhealthimages/urocraVia.jpeg",
+    product: "/UROCRAVIA.jpeg",
+  },
+   {
+    name: "RESETOD-SP",
+    logo: "/switchhealthimages/logo.jpeg",
+    product: "/RESETOD-SP.PNG",
+  },
+   {
+    name: "RESETOD-TH",
+    logo: "/switchhealthimages/logo.jpeg",
+    product: "/Resetod-th.jpeg",
   },
 ];
-
 const ConsumerBrands = () => {
   return (
     <section className="bg-[#f6f6f6] py-12 md:py-20">

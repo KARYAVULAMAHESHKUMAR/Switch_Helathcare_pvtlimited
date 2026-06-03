@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-
+import switchlogo from "../../public/switchhealthimages/switchlogo.png";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -19,19 +19,17 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 bg-white shadow-md border-b border-gray-100">
       <div className="max-w-[1600px] mx-auto px-6 lg:px-12 xl:px-20">
-        
         {/* Main Header */}
         <div className="flex items-center justify-between h-24 lg:h-28 xl:h-32">
-          
           {/* Logo */}
-          <Link href="/" className="flex-shrink-0">
+          <Link href="/" className="flex items-center justify-start">
             <Image
-              src="/image.png"
+              src={switchlogo}
               alt="Switch Health"
               width={260}
               height={90}
               priority
-              className="w-[150px] md:w-[200px] lg:w-[240px] xl:w-[280px] h-auto object-contain"
+              className="w-[150px] md:w-[150px] lg:w-[180px] xl:w-[220px] h-auto object-contain rounded-full"
             />
           </Link>
 
@@ -66,8 +64,6 @@ const Header = () => {
               </Link>
             ))}
           </nav>
-
-         
 
           {/* Mobile Menu Button */}
           <button
