@@ -13,6 +13,7 @@ const therapeuticAreas = [
   {
     title: "Pain & Inflammation Management",
     image: "/Theraputrics/Pain & Inflammation Management.jpeg",
+    
   },
 ];
 
