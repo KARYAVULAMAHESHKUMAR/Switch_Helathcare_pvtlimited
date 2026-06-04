@@ -1,14 +1,17 @@
+import React from 'react';
 import Brands from "../components/Brands";
 import Overview from "../components/Overview";
 import TherapeuticAreas from "../components/TherapeuticAreas ";
-import Curosals from "@/components/Curosals";
-export default function Home() {
-  return (
-    <div className="space-y-1">
-      <Curosals/>
-    <TherapeuticAreas/>
+
+
+const Hero = () =>{
+    return(
+        <div>
+            <TherapeuticAreas/>
             <Brands />
           <Overview />
-    </div>
-  );
+        </div>
+
+    )
 }
+export default Hero;

@@ -4,32 +4,46 @@ import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import switchlogo from "../../public/switchhealthimages/switchlogo.png";
+
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const menuItems = [
-    "Our Story",
-    "Our Products",
-    "Business Areas",
-    "Careers",
-    "Contact Us",
+    {
+      label: "Our Story",
+      path: "/ourstory",
+    },
+    {
+      label: "Our Products",
+      path: "/brands",
+    },
+    // {
+    //   label: "Business Areas",
+    //   path: "/businessareas",
+    // },
+    {
+      label: "Board Directors",
+      path: "/boardmembers",
+    },
+    {
+      label: "Contact Us",
+      path: "/contactus",
+    },
   ];
 
   return (
     <header className="sticky top-0 z-50 bg-white shadow-md border-b border-gray-100">
       <div className="max-w-[1600px] mx-auto px-6 lg:px-12 xl:px-20">
-        {/* Main Header */}
         <div className="flex items-center justify-between h-24 lg:h-28 xl:h-32">
           {/* Logo */}
-          <Link href="/" className="flex items-center justify-start">
+          <Link href="/" className="flex items-center">
             <Image
-              src={switchlogo}
+              src="/switchhealthimages/image.png"
               alt="Switch Health"
-              width={260}
+              width={220}
               height={90}
               priority
-              className="w-[150px] md:w-[150px] lg:w-[180px] xl:w-[220px] h-auto object-contain rounded-full"
+              className="h-auto object-contain "
             />
           </Link>
 
@@ -37,15 +51,15 @@ const Header = () => {
           <nav className="hidden lg:flex items-center gap-10 xl:gap-14">
             {menuItems.map((item) => (
               <Link
-                key={item}
-                href="/"
+                key={item.label}
+                href={item.path}
                 className="
                   relative
                   text-lg
                   xl:text-xl
                   font-bold
                   tracking-wide
-                  text-gray-800
+                  text-[#0F4C81]
                   transition-all
                   duration-300
                   hover:text-[#6D56A6]
@@ -60,7 +74,7 @@ const Header = () => {
                   hover:after:w-full
                 "
               >
-                {item}
+                {item.label}
               </Link>
             ))}
           </nav>
@@ -76,7 +90,7 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Gradient Accent Bar */}
+      {/* Accent Bar */}
       <div className="h-1.5 bg-gradient-to-r from-[#6D56A6] via-[#A88ACD] to-[#6D56A6]" />
 
       {/* Mobile Menu */}
@@ -88,8 +102,8 @@ const Header = () => {
         <div className="bg-white shadow-lg">
           {menuItems.map((item) => (
             <Link
-              key={item}
-              href="/"
+              key={item.label}
+              href={item.path}
               onClick={() => setIsOpen(false)}
               className="
                 block
@@ -102,7 +116,7 @@ const Header = () => {
                 hover:bg-gray-50
               "
             >
-              {item}
+              {item.label}
             </Link>
           ))}
 
@@ -119,6 +133,8 @@ const Header = () => {
                 rounded-full
                 text-lg
                 font-bold
+                hover:bg-[#5c4790]
+                transition-colors
               "
             >
               Get Started

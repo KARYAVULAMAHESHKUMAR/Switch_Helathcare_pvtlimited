@@ -98,7 +98,7 @@ const TherapeuticAreas = () => {
           ))}
 
           {/* Many More Card */}
-          <div
+          {/* <div
             className="
               rounded-2xl
               border
@@ -125,7 +125,7 @@ const TherapeuticAreas = () => {
               <p>Many More</p>
               <ArrowRight className="mx-auto mt-3" size={24} />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
