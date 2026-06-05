@@ -108,10 +108,12 @@ const Footer = () => {
 
             <ul className="space-y-5 text-gray-300">
               <li>Overview</li>
-              <li>Telangana</li>
-              <li>Hyderabd</li>
-              <li>Secundrabad</li>
-              <li>Patancheruvu</li>
+              <li>BAJAJ FORMULATIONS</li>
+              <li>BAJAJ NUTRACEUTICALS </li>
+              <li>MACROZ HEALTHCARE</li>
+              <li>BADDI</li>
+              <li>ROORKEE</li>
+              <li>HARIDWAR</li>
             </ul>
           </div>
 
