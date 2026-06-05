@@ -90,7 +90,7 @@ const ContactUs = () => {
                     Drug License
                   </span>
                   <span className="font-medium">
-                    20B/TG/MDL/2024-126833
+                    TG/MDL/2024-126833
                   </span>
                 </div>
 
@@ -99,7 +99,7 @@ const ContactUs = () => {
                     Drug License
                   </span>
                   <span className="font-medium">
-                    21B/TG/MDL/2024-126833
+                    TG/MDL/2024-126833
                   </span>
                 </div>
               </div>

@@ -22,7 +22,7 @@ const Header = () => {
     //   path: "/businessareas",
     // },
     {
-      label: "Board Directors",
+      label: "Board Of Directors",
       path: "/boardmembers",
     },
     {
