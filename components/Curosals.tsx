@@ -6,34 +6,34 @@ import Image from "next/image";
 const members = [
   {
     id: 1,
-    name: "Board Member",
+    name: "Board Member1",
     designation: "Executive Director",
     image: "/curosals/company.png",
   },
   {
     id: 2,
-    name: "Board Member",
+    name: "Board Member2",
     designation: "Independent Director",
     image: "/curosals/Medicine2.png",
   },
   {
     id: 3,
-    name: "Board Member",
-    designation: "Director",
+    name: "Board Member3",
+    designation: "Director1",
     image: "/curosals/Medicine3.png",
   },
   {
     id: 4,
-    name: "Board Member",
-    designation: "Director",
+    name: "Board Member4",
+    designation: "Director2",
     image: "/curosals/Medicine4.png",
   },
-  {
-    id: 5,
-    name: "Board Member",
-    designation: "Director",
-    image: "/curosals/Medicine5.png",
-  },
+  // {
+  //   id: 5,
+  //   name: "Board Member",
+  //   designation: "Director",
+  //   image: "/curosals/Medicine5.png",
+  // },
 ];
 
 const Curosals = () => {
@@ -88,7 +88,7 @@ const Curosals = () => {
 
         {/* Dots */}
         <div className="flex justify-center mt-4 sm:mt-6 gap-2 sm:gap-3 px-4">
-          {members.map((_, index) => (
+          {members.map((item, index) => (
             <button
               key={index}
               onClick={() => setCurrent(index)}

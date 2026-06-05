@@ -75,7 +75,6 @@ const Footer = () => {
             <ul className="space-y-5 text-gray-300">
               <li>Overview</li>
               <li>Switch Group</li>
-              <li>Chairman Emeritus</li>
               <li>Board of Directors</li>
               <li>Core Values</li>
               <li>Milestones</li>
@@ -87,6 +86,7 @@ const Footer = () => {
             <h3 className="text-3xl font-semibold mb-8">Our Products</h3>
 
             <ul className="space-y-5 text-gray-300">
+              <li>Overview</li>
               <li>MET B9 TAB</li>
               <li>MET B9 LC TAB</li>
               <li>MET B9 SYR</li>
@@ -108,15 +108,10 @@ const Footer = () => {
 
             <ul className="space-y-5 text-gray-300">
               <li>Overview</li>
-              <li>Indrad</li>
-              <li>Dahej</li>
-              <li>Baddi</li>
-              <li>Sikkim Unit I & II</li>
-              {/* <li>Sikkim Unit III</li>
-              <li>Anakapalli</li>
-              <li>Pithampur</li>
-              <li>Bileshwarpura</li> */}
-              <li>HSES Forum</li>
+              <li>Telangana</li>
+              <li>Hyderabd</li>
+              <li>Secundrabad</li>
+              <li>Patancheruvu</li>
             </ul>
           </div>
 

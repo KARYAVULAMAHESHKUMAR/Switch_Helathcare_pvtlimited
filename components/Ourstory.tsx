@@ -33,11 +33,11 @@ const OurStory = () => {
       <div className="max-w-7xl mx-auto px-6 py-20">
         <div className="grid lg:grid-cols-2 gap-14 items-center">
           <div>
-            <span className="text-[#6D56A6] font-semibold uppercase">
+            <span className="text-[#0F4C81] font-semibold uppercase">
               Our Journey
             </span>
 
-            <h2 className="text-4xl font-bold text-gray-900 mt-3 mb-6">
+            <h2 className="text-4xl font-bold text-[#0F4C81] mt-3 mb-6">
               Our Story
             </h2>
 
@@ -60,7 +60,7 @@ const OurStory = () => {
           </div>
 
           <div className="bg-gray-50 rounded-3xl p-10 shadow-lg">
-            <h3 className="text-2xl font-bold mb-6 text-[#6D56A6]">
+            <h3 className="text-2xl font-bold mb-6 text-[#0F4C81]">
               Why Choose Us
             </h3>
 
@@ -80,7 +80,7 @@ const OurStory = () => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-8">
             <div className="bg-white p-10 rounded-3xl shadow-lg">
-              <h3 className="text-3xl font-bold text-[#6D56A6] mb-5">
+              <h3 className="text-3xl font-bold text-[#0F4C81] mb-5">
                 Our Vision
               </h3>
 
@@ -91,7 +91,7 @@ const OurStory = () => {
             </div>
 
             <div className="bg-white p-10 rounded-3xl shadow-lg">
-              <h3 className="text-3xl font-bold text-[#6D56A6] mb-5">
+              <h3 className="text-3xl font-bold text-[#0F4C81] mb-5">
                 Our Mission
               </h3>
 
@@ -110,30 +110,30 @@ const OurStory = () => {
       {/* Core Values */}
       <div className="max-w-7xl mx-auto px-6 py-20">
         <div className="text-center mb-14">
-          <h2 className="text-4xl font-bold text-gray-900">
+          <h2 className="text-4xl font-bold text-[#0F4C81]">
             Our Core Values
           </h2>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="bg-white border rounded-2xl p-8 text-center shadow-sm">
-            <ShieldCheck className="mx-auto text-[#6D56A6]" size={50} />
-            <h4 className="font-bold text-xl mt-4">Quality</h4>
+            <ShieldCheck className="mx-auto text-[#0F4C81]" size={50} />
+            <h4 className="font-bold text-xl mt-4 text-[#0F4C81]">Quality</h4>
           </div>
 
           <div className="bg-white border rounded-2xl p-8 text-center shadow-sm">
-            <HeartHandshake className="mx-auto text-[#6D56A6]" size={50} />
-            <h4 className="font-bold text-xl mt-4">Trust</h4>
+            <HeartHandshake className="mx-auto text-[#0F4C81]" size={50} />
+            <h4 className="font-bold text-xl mt-4 text-[#0F4C81]">Trust</h4>
           </div>
 
           <div className="bg-white border rounded-2xl p-8 text-center shadow-sm">
-            <Lightbulb className="mx-auto text-[#6D56A6]" size={50} />
-            <h4 className="font-bold text-xl mt-4">Innovation</h4>
+            <Lightbulb className="mx-auto text-[#0F4C81]" size={50} />
+            <h4 className="font-bold text-xl text-[#0F4C81] mt-4">Innovation</h4>
           </div>
 
           <div className="bg-white border rounded-2xl p-8 text-center shadow-sm">
-            <Users className="mx-auto text-[#6D56A6]" size={50} />
-            <h4 className="font-bold text-xl mt-4">Patient Care</h4>
+            <Users className="mx-auto text-[#0F4C81]" size={50} />
+            <h4 className="font-bold text-xl text-[#0F4C81] mt-4">Patient Care</h4>
           </div>
         </div>
       </div>

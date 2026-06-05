@@ -50,7 +50,7 @@ const ContactUs = () => {
 
                 <div className="flex gap-4">
                   <Phone />
-                  <p>+91 96424 80074</p>
+                  <p>+91 96424 80074<br/>+91 8885665580</p>
                 </div>
 
                 <div className="flex gap-4">
