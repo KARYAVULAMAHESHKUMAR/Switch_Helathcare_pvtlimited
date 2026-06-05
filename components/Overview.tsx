@@ -4,7 +4,7 @@ const Overview = () => {
   return (
     <section className="bg-[#f5f5f5] py-16 lg:py-24">
       <div className="max-w-5xl mx-auto px-4 text-center">
-        <h2 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-[#2D216D]">
+        <h2 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-[#0F4C81]">
           An Overview
         </h2>
 
